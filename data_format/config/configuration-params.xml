@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>param</name>
+    <value>uid,mid,f,v,s,hid,openudid,tid,active,net,imsi,app,rom,splus</value>
+    <description>param array</description>
+  </property>
+  <property>
+    <name>ip</name>
+    <value>ip</value>
+    <description>ip</description>
+  </property>
+  <property>
+    <name>uuid</name>
+    <value>uuid</value>
+    <description>uuid</description>
+  </property>
+  <property>
+    <name>data</name>
+    <value>module,type,origin,optvalue,optvalue2,optmessage,optmessage2,start_time,user_time,key,long_result_add,enum_result_unique,enum_result_default,long_result_default,str_result_deafult,control_code,song_id,song_time,file_size,play_time,play_control,is_buffer,response_time,loading_time,buffer_time,buffer_size,buffer_count,url,dnsdone_time,connerdone_time,httpheader_receivetime,dnsdone_time2,connerdone_time2,httpheader_receivetime2,downstatus,fileid,filename,filesize,down_file_size,downloatime,cutoff_count,quality,position,value</value>
+    <description>data array</description>
+  </property>
+</configuration>

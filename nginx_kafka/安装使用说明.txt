@@ -1,0 +1,74 @@
+INSTALL
+1、编译new_access_log模块
+	cd ./librdkafka-master
+	chmod  777 configure
+	./configure
+	make
+	
+2、编译nginx
+	2.1、请参照文档：http://redmine.ttpod.com/projects/stat_share/wiki/Nginx%E6%94%B6%E9%9B%86post%E5%8E%8B%E7%BC%A9%E6%95%B0%E6%8D%AE 
+	2.2、执行./configure 加入参数
+			--add-module=xxxx/librdkafka-master/
+
+USE
+1、new_access_log模块使用说明
+	类似access_log
+	1.1、设置kafka连接串
+        new_kafka_brokers  kafkabroker
+	1.2、new_log_format设置日志格式
+		参数1：格式名称
+		参数2：日志格式
+		new_log_format log1  "$remote_addr"
+	1.3、new_access_log 日志输出
+		new_access_log off 关闭日志输出
+		
+		形式1：
+			参数1：kafka队列名
+			参数2：输出文件名
+			参数3: 日志格式名
+			new_access_log topicName /usr/local/nginx/logs/ttpod_client.log log1;
+		形式2：
+			参数1：kafka队列名
+			参数2: 日志格式名
+			new_access_log topicName  log1;	
+		
+2、使用技巧
+	2.1、在全局关闭new_access_log模块
+	{
+		new_access_log off;
+        new_kafka_brokers  kafkabroker;
+		new_log_format log1  "$remote_addr";
+		location /a{
+			new_access_log test_topic /usr/local/nginx/logs/ttpod_client.log log1;
+		}
+		location /b{
+		}
+	}
+3、动态修改配置
+	3.1、方法
+		nginx -s reload
+	3.2、增加新的日志格式
+		{
+			new_access_log off;
+            new_kafka_brokers  kafkabroker;
+			new_log_format log1   "$remote_addr"
+			new_log_format log2   "$remote_addr"
+			location /a{
+				new_access_log test_topic /usr/local/nginx/logs/ttpod_client.log log1;
+			}
+			location /b{
+			}
+		}
+	3.3、修改location的日志设置
+		{
+			new_access_log off;
+			new_log_format log1   "$remote_addr"
+			new_log_format log2   "$remote_addr"
+			location /a{
+				new_access_log test_topic1 /usr/local/nginx/logs/a.log log1;
+			}
+			location /b{
+			}
+		}
+	3.4、注意事项
+		kafka连接串发送变化，无法动态更新，必须重启nginx

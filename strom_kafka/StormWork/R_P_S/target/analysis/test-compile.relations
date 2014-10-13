@@ -1,0 +1,74 @@
+products:
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\DataFactory.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataReader.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\DataReader.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\LogProducer.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\Main.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\Main.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\RecordTest.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\TestStatBolt.scala -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\TestStatBolt.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\SummaryCase.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\main\SummaryCase.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\TestTuple.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\main\TestTuple.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\test$1.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\test$2.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\test.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\com\ttpod\storm\recomend\TestRecommend.class
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> D:\wolf\strom_kafka\StormWork\R_P_S\target\test-classes\com\ttpod\storm\recommend\testDownLoadStatBolt.class
+binary dependencies:
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java -> C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataReader.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataReader.java -> C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka_2.10\0.8.1\kafka_2.10-0.8.1.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\Main.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\TestStatBolt.scala -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\SummaryCase.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\TestTuple.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\TestTuple.java -> C:\Users\Administrator\.m2\repository\org\apache\storm\storm-core\0.9.1-incubating\storm-core-0.9.1-incubating.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> C:\Users\Administrator\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.3.6\zookeeper-3.3.6.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.5.1\jedis-2.5.1.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> C:\Users\Administrator\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.10.1\scala-library-2.10.1.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> C:\Users\Administrator\.m2\repository\org\scalatest\scalatest_2.10\2.2.1\scalatest_2.10-2.2.1.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> C:\Program Files\Java\jdk1.7.0_55\jre\lib\rt.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.10.1\scala-library-2.10.1.jar
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> C:\Users\Administrator\.m2\repository\org\scalatest\scalatest_2.10\2.2.1\scalatest_2.10-2.2.1.jar
+source dependencies:
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataReader.java -> D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\TestTuple.java
+external dependencies:
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\Main.java -> com.ttpod.storm.stat.DownLoadStatBolt
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> com.ttpod.Record.FieldInfo
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> com.ttpod.Record.FieldType
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> com.ttpod.Record.Record
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.Record.FieldInfoFactory
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.Record.ILog
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.Record.Record
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.storm.recomend.PubInfo
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.storm.recomend.RecomendPro
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.storm.recomend.RecomendPro$
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.storm.work.ConfigReader
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> com.ttpod.Record.FieldInfoFactory
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> com.ttpod.Record.Record
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> com.ttpod.storm.stat.DownLoadStatBolt
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> com.ttpod.storm.work.ConfigReader
+class names:
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataFactory.java -> DataFactory
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\DataReader.java -> DataReader
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\LogProducer.java -> LogProducer
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\Main.java -> Main
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\RecordTest.java -> RecordTest
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\TestStatBolt.scala -> TestStatBolt
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\SummaryCase.java -> main.SummaryCase
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\main\TestTuple.java -> main.TestTuple
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> test
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> test$1
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\java\test.java -> test$2
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\test.scala -> com.ttpod.storm.recomend.TestRecommend
+   D:\wolf\strom_kafka\StormWork\R_P_S\src\test\scala\com\ttpod\storm\recommend\testDownLoadStatBolt.scala -> com.ttpod.storm.recommend.testDownLoadStatBolt

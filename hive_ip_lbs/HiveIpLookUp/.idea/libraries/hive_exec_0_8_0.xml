@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="hive-exec-0.8.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/0.8.0/hive-exec-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/ql/src/gen/thrift/gen-javabean" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/ql/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/ql/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/ant/src" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/cli/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/cli/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/hwi/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/hwi/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/pdk/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/pdk/test-plugin/src" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/jdbc/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/jdbc/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/serde/src/gen/thrift/gen-javabean" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/serde/src/gen/protobuf/gen-java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/serde/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/serde/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/shims/src/0.20/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/shims/src/0.23/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/shims/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/shims/src/0.20S/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/shims/src/common/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/common/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/common/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/contrib/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/contrib/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/service/src/gen/thrift/gen-javabean" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/service/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/service/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/builtins/src" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/metastore/src/gen/thrift/gen-javabean" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/metastore/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/metastore/src/test" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/metastore/src/model" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/hbase-handler/src/java" />
+      <root url="file://$USER_HOME$/Downloads/hive-0.8.0/src/hbase-handler/src/test" />
+    </SOURCES>
+  </library>
+</component>

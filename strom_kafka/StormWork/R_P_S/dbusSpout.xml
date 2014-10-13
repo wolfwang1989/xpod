@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property>
+        <name>dbus.spout.kafka.topicname</name>
+        <value>ttpod</value>
+        <description>kafka海量数据队列名</description>
+    </property>
+    <property>
+        <name>kafka.group.id</name>
+        <value>stat</value>
+        <description>从kafka读取数据的组名</description>
+    </property>
+    <property>
+        <name>com.ttpod.recmend.user.action.tablename</name>
+        <value>user_action</value>
+    </property>
+    <property>
+        <name>kafka.zookeeper.connect</name>
+        <value>192.168.1.12:2181,192.168.1.13:2181</value>
+        <description>卡夫卡 zookeeper集群的ip：127.0.0.1：2181</description>
+    </property>
+    <property>
+        <name>kafka.socket.receive.buffer.bytes</name>
+        <value>1048576</value>
+        <description>从kafka读取数据，socket的缓存区大小</description>
+    </property>
+    <property>
+        <name>kafka.fetch.message.max.bytes</name>
+        <value>104857600</value>
+        <description>从kafka读取数据，一条消息的最大长度</description>
+    </property>
+    <property>
+        <name>topology.workers</name>
+        <value>2</value>
+        <type>int</type>
+        <description>从kafka读取数据，一条消息的最大长度</description>
+    </property>
+    <property>
+        <name>topology.debug</name>
+        <value>true</value>
+        <type>bool</type>
+        <description>是否打印调试日志</description>
+    </property>
+    <property>
+        <name>topology.kryo.register</name>
+        <value>com.ttpod.Record.Record</value>
+        <type>list</type>
+        <description>kryo注册类</description>
+    </property>
+    <property>
+        <name>com.ttpod.log.format</name>
+        <value>remote_addr:single,remote_port:single,request_uri:single,request_method:single,time_local:single,request_body:json</value>
+        <description></description>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>hadoop02,hadoop01</value>
+        <description></description>
+    </property>
+
+    <property>
+        <name>com.ttpod.writetohbase.internal</name>
+        <value>6000</value>
+        <type>int</type>
+        <description></description>
+    </property>
+
+    <property>
+        <name>com.ttpod.redis.host</name>
+        <value>192.168.1.13</value>
+    </property>
+    <!--<property>-->
+        <!--<name>com.ttpod.ip.db</name>-->
+        <!--<value>my_ip.ttdb</value>-->
+        <!--<type>file</type>-->
+    <!--</property>-->
+
+
+<property>
+  <name>stream</name>
+  <value>
+      {
+      "spout":
+      [
+      {
+      "componentid":"PullFromKafkaSpout",
+      "classname":"com.ttpod.storm.ipstat.PullFromKafkaSpout",
+      "tasknum":1,
+      "excutornum":1
+      }
+      ]
+      ,
+      "bolt":
+      [
+      {
+      "componentid":"DownLoadStatBolt",
+      "classname":"com.ttpod.storm.recomend.RecomendPro",
+      "tasknum":1,
+      "excutornum":1,
+      "recievers":[
+      {
+      "grouping_type":"shuffleGrouping",
+      "from_componentid":"PullFromKafkaSpout"
+      }
+      ]
+
+      }
+      ]
+      }
+  </value>
+</property>
+
+
+</configuration>
+
+
+

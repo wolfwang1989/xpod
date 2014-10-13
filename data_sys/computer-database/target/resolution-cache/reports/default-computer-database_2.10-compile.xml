@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="computer-database_2.10"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140829154209"/>
+	<dependencies>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20140618152545" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="115">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6433" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\joda-time\joda-time\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="581571" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\joda-time\joda-time\jars\joda-time-2.3.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2" status="release" pubdate="20140720170531" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile)" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3400" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\joda-time\joda-time\ivy-2.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\joda-time\joda-time\2.2\ivys\ivy.xml"/>
+				<evicted-by rev="2.3"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="2.2.0" status="release" pubdate="20140701142422" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="76">
+				<metadata-artifact status="no" details="" size="32633" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-common\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="2735584" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jsch">
+			<revision name="0.1.42" status="release" pubdate="20140701142532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jsch/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="109">
+				<license name="BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2511" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.jcraft\jsch\ivy-0.1.42.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/jcraft/jsch/0.1.42/jsch-0.1.42.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="0.1.42" rev-constraint-default="0.1.42" rev-constraint-dynamic="0.1.42" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jsch" type="jar" ext="jar" status="no" details="" size="185746" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.jcraft\jsch\jars\jsch-0.1.42.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/jcraft/jsch/0.1.42/jsch-0.1.42.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-auth">
+			<revision name="2.2.0" status="release" pubdate="20140701142530" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="107">
+				<metadata-artifact status="no" details="" size="33610" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-auth\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="49750" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-auth\jars\hadoop-auth-2.2.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.4" status="release" pubdate="20140701142521" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="102">
+				<metadata-artifact status="no" details="" size="10479" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.avro\avro\ivy-1.7.4.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.7.4" rev-constraint-default="1.7.4" rev-constraint-dynamic="1.7.4" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="303139" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.avro\avro\jars\avro-1.7.4.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522145732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="105">
+				<metadata-artifact status="no" details="" size="7880" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.commons\commons-compress\ivy-1.4.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-compress\1.4.1\ivys\ivy.xml"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.7.4"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-compress\1.4.1\jars\commons-compress.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-compress\1.4.1\jars\commons-compress.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022204446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="106">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2268" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.tukaani\xz\ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.tukaani\xz\1.0\ivys\ivy.xml"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.tukaani\xz\1.0\jars\xz.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.tukaani\xz\1.0\jars\xz.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.4.1" status="release" pubdate="20140701142525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/snappy-java/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="104">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3424" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.xerial.snappy\snappy-java\ivy-1.0.4.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.0.4.1" rev-constraint-default="1.0.4.1" rev-constraint-dynamic="1.0.4.1" callerrev="1.7.4"/>
+				<artifacts>
+					<artifact name="snappy-java" type="bundle" ext="jar" status="no" details="" size="995968" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.xerial.snappy\snappy-java\bundles\snappy-java-1.0.4.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20140428155241" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="103">
+				<metadata-artifact status="no" details="" size="3377" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.thoughtworks.paranamer\paranamer\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.7.4"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29555" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.3.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20140701142502" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="97">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5600" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-configuration\commons-configuration\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-configuration\commons-configuration\jars\commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils-core">
+			<revision name="1.8.0" status="release" pubdate="20140701142507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/beanutils/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="101">
+				<metadata-artifact status="no" details="" size="2580" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-beanutils\commons-beanutils-core\ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-beanutils-core" type="jar" ext="jar" status="no" details="" size="206035" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-beanutils\commons-beanutils-core\jars\commons-beanutils-core-1.8.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="1.8" status="release" pubdate="20140701142503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/digester/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="99">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3237" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-digester\commons-digester\ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="143602" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-digester\commons-digester\jars\commons-digester-1.8.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.7.0" status="release" pubdate="20140701142419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="100">
+				<metadata-artifact status="no" details="" size="2417" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-beanutils\commons-beanutils\ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="188671" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.7.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jets3t" name="jets3t">
+			<revision name="0.6.1" status="release" pubdate="20140701142502" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jets3t.s3.amazonaws.com/index.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="96">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3090" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\net.java.dev.jets3t\jets3t\ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jets3t" type="jar" ext="jar" status="no" details="" size="321806" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\net.java.dev.jets3t\jets3t\jars\jets3t-0.6.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet.jsp" name="jsp-api">
+			<revision name="2.1" status="release" pubdate="20140710152041" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="113">
+				<metadata-artifact status="no" details="" size="2216" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.servlet.jsp\jsp-api\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jsp-api" type="jar" ext="jar" status="no" details="" size="100636" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.servlet.jsp\jsp-api\jars\jsp-api-2.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="tomcat" name="jasper-runtime">
+			<revision name="5.5.23" status="release" pubdate="20140701142459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="111">
+				<metadata-artifact status="no" details="" size="2890" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\tomcat\jasper-runtime\ivy-5.5.23.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/tomcat/jasper-runtime/5.5.23/jasper-runtime-5.5.23.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="5.5.23" rev-constraint-default="5.5.23" rev-constraint-dynamic="5.5.23" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jasper-runtime" type="jar" ext="jar" status="no" details="" size="76844" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\tomcat\jasper-runtime\jars\jasper-runtime-5.5.23.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/tomcat/jasper-runtime/5.5.23/jasper-runtime-5.5.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-el" name="commons-el">
+			<revision name="1.0" status="release" pubdate="20140425113749" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/el/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="112">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2942" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-el\commons-el\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.pom"/>
+				<caller organisation="tomcat" name="jasper-runtime" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="5.5.23"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-el" type="jar" ext="jar" status="no" details="" size="112341" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-el\commons-el\jars\commons-el-1.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="tomcat" name="jasper-compiler">
+			<revision name="5.5.23" status="release" pubdate="20140701142454" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="110">
+				<metadata-artifact status="no" details="" size="2876" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\tomcat\jasper-compiler\ivy-5.5.23.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/tomcat/jasper-compiler/5.5.23/jasper-compiler-5.5.23.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="5.5.23" rev-constraint-default="5.5.23" rev-constraint-dynamic="5.5.23" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jasper-compiler" type="jar" ext="jar" status="no" details="" size="408133" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\tomcat\jasper-compiler\jars\jasper-compiler-5.5.23.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/tomcat/jasper-compiler/5.5.23/jasper-compiler-5.5.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server">
+			<revision name="1.9" status="release" pubdate="20140710152040" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="94">
+				<metadata-artifact status="no" details="" size="6305" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-server\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jersey-server" type="bundle" ext="jar" status="no" details="" size="713089" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-server\bundles\jersey-server-1.9.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm">
+			<revision name="3.1" status="release" pubdate="20140425114018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="95">
+				<metadata-artifact status="no" details="" size="2832" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\asm\asm\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/asm/asm/3.1/asm-3.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.9"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43033" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\asm\asm\jars\asm-3.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/asm/asm/3.1/asm-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-json">
+			<revision name="1.9" status="release" pubdate="20140710152038" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="86">
+				<metadata-artifact status="no" details="" size="5826" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-json\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jersey-json" type="bundle" ext="jar" status="no" details="" size="147952" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-json\bundles\jersey-json-1.9.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-xc">
+			<revision name="1.8.3" status="release" pubdate="20140710152040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="93">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-xc\ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<artifacts>
+					<artifact name="jackson-xc" type="jar" ext="jar" status="no" details="" size="32319" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-xc\jars\jackson-xc-1.8.3.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-jaxrs">
+			<revision name="1.8.3" status="release" pubdate="20140710152039" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="92">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2968" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-jaxrs\ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<artifacts>
+					<artifact name="jackson-jaxrs" type="jar" ext="jar" status="no" details="" size="17883" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-jaxrs\jars\jackson-jaxrs-1.8.3.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl">
+			<revision name="2.2.3-1" status="release" pubdate="20140701142437" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jaxb.java.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="89">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.3-1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="2.2.3-1" rev-constraint-default="2.2.3-1" rev-constraint-dynamic="2.2.3-1" callerrev="1.9"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="890168" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.2.3-1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.2.2" status="release" pubdate="20140701142439" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jaxb.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="90">
+				<license name="CDDL 1.1" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2894" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.xml.bind\jaxb-api\ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.pom"/>
+				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.3-1"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="105134" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.2.2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20140425113835" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="91">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2747" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.activation\activation\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.activation\activation\jars\activation-1.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jettison" name="jettison">
+			<revision name="1.1" status="release" pubdate="20140702145243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="87">
+				<metadata-artifact status="no" details="" size="2761" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jettison\jettison\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.9"/>
+				<artifacts>
+					<artifact name="jettison" type="bundle" ext="jar" status="no" details="" size="67758" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jettison\jettison\bundles\jettison-1.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="stax" name="stax-api">
+			<revision name="1.0.1" status="release" pubdate="20140702145243" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stax.codehaus.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="88">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2435" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\stax\stax-api\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.pom"/>
+				<caller organisation="org.codehaus.jettison" name="jettison" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="26514" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\stax\stax-api\jars\stax-api-1.0.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core">
+			<revision name="1.9" status="release" pubdate="20140710152037" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="85">
+				<metadata-artifact status="no" details="" size="5460" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-core\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jersey-core" type="bundle" ext="jar" status="no" details="" size="458739" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.sun.jersey\jersey-core\bundles\jersey-core-1.9.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty">
+			<revision name="6.1.26" status="release" pubdate="20140428155236" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="84">
+				<metadata-artifact status="no" details="" size="7265" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.mortbay.jetty\jetty\ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="jetty" type="jar" ext="jar" status="no" details="" size="539912" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.mortbay.jetty\jetty\jars\jetty-6.1.26.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-net" name="commons-net">
+			<revision name="3.1" status="release" pubdate="20140701142425" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="82">
+				<metadata-artifact status="no" details="" size="7887" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-net\commons-net\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="273370" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-net\commons-net\jars\commons-net-3.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlenc" name="xmlenc">
+			<revision name="0.52" status="release" pubdate="20140425113528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlenc.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="80">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2362" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\xmlenc\xmlenc\ivy-0.52.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="0.52" rev-constraint-default="0.52" rev-constraint-dynamic="0.52" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="xmlenc" type="jar" ext="jar" status="no" details="" size="15010" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\xmlenc\xmlenc\jars\xmlenc-0.52.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math">
+			<revision name="2.1" status="release" pubdate="20140701142423" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="79">
+				<metadata-artifact status="no" details="" size="5943" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.commons\commons-math\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="832410" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.commons\commons-math\jars\commons-math-2.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20140425113517" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="78">
+				<metadata-artifact status="no" details="" size="4498" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-cli\commons-cli\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-cli\commons-cli\jars\commons-cli-1.2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-annotations">
+			<revision name="2.2.0" status="release" pubdate="20140701142420" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="77">
+				<metadata-artifact status="no" details="" size="31700" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-annotations\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="16778" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hadoop\hadoop-annotations\jars\hadoop-annotations-2.2.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-client">
+			<revision name="0.98.3-hadoop2" status="release" pubdate="20140801152436" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="61">
+				<metadata-artifact status="no" details="" size="23710" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-client\ivy-0.98.3-hadoop2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-client/0.98.3-hadoop2/hbase-client-0.98.3-hadoop2.pom"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="0.98.3-hadoop2" rev-constraint-default="0.98.3-hadoop2" rev-constraint-dynamic="0.98.3-hadoop2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hbase-client" type="jar" ext="jar" status="no" details="" size="923428" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-client\jars\hbase-client-0.98.3-hadoop2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-client/0.98.3-hadoop2/hbase-client-0.98.3-hadoop2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.8.8" status="release" pubdate="20140701142443" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.7.4"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="2.2.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="669065" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\jars\jackson-mapper-asl-1.8.8.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.8.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.8" callerrev="2.2.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.8.8" status="release" pubdate="20140701142441" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2466" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.7.4"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="2.2.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile, runtime" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.8.8"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="227517" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.8.8.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.8.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.8" callerrev="2.2.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.9"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.cloudera.htrace" name="htrace-core">
+			<revision name="2.04" status="release" pubdate="20140701142706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cloudera/htrace" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="72">
+				<metadata-artifact status="no" details="" size="4583" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.cloudera.htrace\htrace-core\ivy-2.04.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/cloudera/htrace/htrace-core/2.04/htrace-core-2.04.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="2.04" rev-constraint-default="2.04" rev-constraint-dynamic="2.04" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="htrace-core" type="jar" ext="jar" status="no" details="" size="31532" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.cloudera.htrace\htrace-core\jars\htrace-core-2.04.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/cloudera/htrace/htrace-core/2.04/htrace-core-2.04.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20140428155238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="73">
+				<metadata-artifact status="no" details="" size="7202" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.mortbay.jetty\jetty-util\ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="2.2.0"/>
+				<caller organisation="org.cloudera.htrace" name="htrace-core" conf="compile, runtime" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="2.04"/>
+				<caller organisation="org.mortbay.jetty" name="jetty" conf="compile, runtime" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="6.1.26"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.mortbay.jetty\jetty-util\jars\jetty-util-6.1.26.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.6" status="release" pubdate="20140701142533" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="71">
+				<metadata-artifact status="no" details="" size="4174" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.zookeeper\zookeeper\ivy-3.4.6.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="3.4.6" rev-constraint-default="3.4.6" rev-constraint-dynamic="3.4.6" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="792964" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.zookeeper\zookeeper\jars\zookeeper-3.4.6.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.6.1" status="release" pubdate="20140425114011" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="4348" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\slf4j-log4j12\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom"/>
+				<evicted-by rev="1.7.5"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.5" status="release" pubdate="20140701142520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="108">
+				<metadata-artifact status="no" details="" size="4682" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\slf4j-log4j12\ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.0"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.4.6"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="8869" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.7.5.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-protocol">
+			<revision name="0.98.3-hadoop2" status="release" pubdate="20140801152438" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="62">
+				<metadata-artifact status="no" details="" size="26019" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-protocol\ivy-0.98.3-hadoop2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-protocol/0.98.3-hadoop2/hbase-protocol-0.98.3-hadoop2.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="0.98.3-hadoop2" rev-constraint-default="0.98.3-hadoop2" rev-constraint-dynamic="0.98.3-hadoop2" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="hbase-protocol" type="jar" ext="jar" status="no" details="" size="3382279" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-protocol\jars\hbase-protocol-0.98.3-hadoop2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-protocol/0.98.3-hadoop2/hbase-protocol-0.98.3-hadoop2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-common">
+			<revision name="0.98.3-hadoop2" status="release" pubdate="20140801152437" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="114">
+				<metadata-artifact status="no" details="" size="29327" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-common\ivy-0.98.3-hadoop2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-common/0.98.3-hadoop2/hbase-common-0.98.3-hadoop2.pom"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="0.98.3-hadoop2" rev-constraint-default="0.98.3-hadoop2" rev-constraint-dynamic="0.98.3-hadoop2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hbase-common" type="jar" ext="jar" status="no" details="" size="439486" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.hbase\hbase-common\jars\hbase-common-0.98.3-hadoop2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/org/apache/hbase/hbase-common/0.98.3-hadoop2/hbase-common-0.98.3-hadoop2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.stephenc.findbugs" name="findbugs-annotations">
+			<revision name="1.3.9-1" status="release" pubdate="20140701142316" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stephenc.github.com/findbugs-annotations" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="64">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3521" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.github.stephenc.findbugs\findbugs-annotations\ivy-1.3.9-1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-protocol" conf="compile, runtime" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="findbugs-annotations" type="jar" ext="jar" status="no" details="" size="15322" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.github.stephenc.findbugs\findbugs-annotations\jars\findbugs-annotations-1.3.9-1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20140720163250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="69">
+				<metadata-artifact status="no" details="" size="8449" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\commons-io\commons-io\2.4\ivys\ivy.xml"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-io\commons-io\2.4\jars\commons-io.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-io\commons-io\2.4\jars\commons-io.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.4"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415110924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="98">
+				<metadata-artifact status="no" details="" size="4576" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\commons-collections\commons-collections\3.2.1\ivys\ivy.xml"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.6"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-collections\commons-collections\3.2.1\jars\commons-collections.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-collections\commons-collections\3.2.1\jars\commons-collections.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20140701142413" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="70">
+				<metadata-artifact status="no" details="" size="6452" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-lang\commons-lang\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.6"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-lang\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*)" position="-1">
+				<evicted-by rev="2.6"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.6"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.6"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.7" status="release" pubdate="20140701142412" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="68">
+				<metadata-artifact status="no" details="" size="8093" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-codec\commons-codec\ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.2.0"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.6.1"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="oauth.signpost" name="signpost-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.2.1.2"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="259600" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-codec\commons-codec\jars\commons-codec-1.7.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3" status="release" pubdate="20051109092951" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://jakarta.apache.org/commons/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2782" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-codec\commons-codec\ivy-1.3.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\commons-codec\commons-codec\1.3\ivys\ivy.xml"/>
+				<evicted-by rev="1.7"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.6.1"/>
+				<caller organisation="oauth.signpost" name="signpost-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.2.1.2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.2.0"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.6.1"/>
+				<caller organisation="oauth.signpost" name="signpost-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.2.1.2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.0.1"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*)" position="-1">
+				<evicted-by rev="1.7"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java-ebean_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="57">
+				<metadata-artifact status="no" details="" size="2480" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-java-ebean_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-ebean_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-java-ebean_2.10" type="jar" ext="jar" status="no" details="" size="12641" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-ebean_2.10\2.2.4\jars\play-java-ebean_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-ebean_2.10\2.2.4\jars\play-java-ebean_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.0-api">
+			<revision name="1.0.1.Final" status="release" pubdate="20110615124226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="60">
+				<license name="Unknown License" url="license.txt"/>
+				<metadata-artifact status="no" details="" size="2456" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\ivy-1.0.1.Final.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="hibernate-jpa-2.0-api" type="jar" ext="jar" status="no" details="" size="102661" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\jars\hibernate-jpa-2.0-api.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\jars\hibernate-jpa-2.0-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm">
+			<revision name="3.2.2" status="release" pubdate="20140721101912" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.avaje.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6267" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.avaje.ebeanorm\avaje-ebeanorm\ivy-3.2.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm\3.2.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="avaje-ebeanorm" type="jar" ext="jar" status="no" details="" size="1582101" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm\3.2.2\jars\avaje-ebeanorm.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm\3.2.2\jars\avaje-ebeanorm.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm-agent">
+			<revision name="3.2.1" status="release" pubdate="20140721022736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.avaje.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="59">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4597" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.avaje.ebeanorm\avaje-ebeanorm-agent\ivy-3.2.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="avaje-ebeanorm-agent" type="jar" ext="jar" status="no" details="" size="182383" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.1\jars\avaje-ebeanorm-agent.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.1\jars\avaje-ebeanorm-agent.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java-jdbc_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="2068" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-java-jdbc_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-jdbc_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.0"/>
+				<caller organisation="com.typesafe.play" name="play-java-ebean_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-java-jdbc_2.10" type="jar" ext="jar" status="no" details="" size="1141" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-jdbc_2.10\2.2.4\jars\play-java-jdbc_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java-jdbc_2.10\2.2.4\jars\play-java-jdbc_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="45">
+				<metadata-artifact status="no" details="" size="4315" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-java_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.0"/>
+				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-java_2.10" type="jar" ext="jar" status="no" details="" size="98578" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java_2.10\2.2.4\jars\play-java_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-java_2.10\2.2.4\jars\play-java_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="3.0.1" status="release" pubdate="20110713054053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://servlet-spec.java.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="3666" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.servlet\javax.servlet-api\ivy-3.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\javax.servlet\javax.servlet-api\3.0.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="jar" ext="jar" status="no" details="" size="85353" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.servlet\javax.servlet-api\3.0.1\jars\javax.servlet-api.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.servlet\javax.servlet-api\3.0.1\jars\javax.servlet-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="2.0.1" status="release" pubdate="20120730081759" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2384" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.google.code.findbugs\jsr305\ivy-2.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.code.findbugs\jsr305\2.0.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="31866" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.code.findbugs\jsr305\2.0.1\jars\jsr305.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.code.findbugs\jsr305\2.0.1\jars\jsr305.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reflections" name="reflections">
+			<revision name="0.9.8" status="release" pubdate="20120525052141" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/reflections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="54">
+				<metadata-artifact status="no" details="" size="3670" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.reflections\reflections\ivy-0.9.8.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.reflections\reflections\0.9.8\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="0.9.8" rev-constraint-default="0.9.8" rev-constraint-dynamic="0.9.8" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="reflections" type="jar" ext="jar" status="no" details="" size="102696" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.reflections\reflections\0.9.8\jars\reflections.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.reflections\reflections\0.9.8\jars\reflections.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="3.2.3.RELEASE" status="release" pubdate="20140720163253" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SpringSource/spring-framework" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4887" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.springframework\spring-context\ivy-3.2.3.RELEASE.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-context\3.2.3.RELEASE\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="3.2.3.RELEASE" rev-constraint-default="3.2.3.RELEASE" rev-constraint-dynamic="3.2.3.RELEASE" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="862874" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-context\3.2.3.RELEASE\jars\spring-context.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-context\3.2.3.RELEASE\jars\spring-context.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="3.2.3.RELEASE" status="release" pubdate="20140720163255" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SpringSource/spring-framework" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2846" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.springframework\spring-beans\ivy-3.2.3.RELEASE.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-beans\3.2.3.RELEASE\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="3.2.3.RELEASE" rev-constraint-default="3.2.3.RELEASE" rev-constraint-dynamic="3.2.3.RELEASE" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="607724" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-beans\3.2.3.RELEASE\jars\spring-beans.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-beans\3.2.3.RELEASE\jars\spring-beans.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="3.2.3.RELEASE" status="release" pubdate="20140720163256" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SpringSource/spring-framework" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2913" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.springframework\spring-core\ivy-3.2.3.RELEASE.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-core\3.2.3.RELEASE\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="3.2.3.RELEASE" rev-constraint-default="3.2.3.RELEASE" rev-constraint-dynamic="3.2.3.RELEASE" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="867800" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-core\3.2.3.RELEASE\jars\spring-core.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.springframework\spring-core\3.2.3.RELEASE\jars\spring-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-validator">
+			<revision name="5.0.1.Final" status="release" pubdate="20140721101857" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+				<metadata-artifact status="no" details="" size="23763" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.hibernate\hibernate-validator\ivy-5.0.1.Final.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate\hibernate-validator\5.0.1.Final\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="5.0.1.Final" rev-constraint-default="5.0.1.Final" rev-constraint-dynamic="5.0.1.Final" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="hibernate-validator" type="jar" ext="jar" status="no" details="" size="572935" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate\hibernate-validator\5.0.1.Final\jars\hibernate-validator.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hibernate\hibernate-validator\5.0.1.Final\jars\hibernate-validator.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml" name="classmate">
+			<revision name="0.8.0" status="release" pubdate="20140721101859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/cowtowncoder/java-classmate" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3244" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.fasterxml\classmate\ivy-0.8.0.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml\classmate\0.8.0\ivys\ivy.xml"/>
+				<caller organisation="org.hibernate" name="hibernate-validator" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="5.0.1.Final"/>
+				<artifacts>
+					<artifact name="classmate" type="bundle" ext="jar" status="no" details="" size="59706" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml\classmate\0.8.0\bundles\classmate.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml\classmate\0.8.0\bundles\classmate.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.1.1.GA" status="release" pubdate="20140721101858" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="49">
+				<license name="GNU Lesser General Public License, version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="7879" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.jboss.logging\jboss-logging\ivy-3.1.1.GA.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.jboss.logging\jboss-logging\3.1.1.GA\ivys\ivy.xml"/>
+				<caller organisation="org.hibernate" name="hibernate-validator" conf="default, compile, runtime, master" rev="3.1.1.GA" rev-constraint-default="3.1.1.GA" rev-constraint-dynamic="3.1.1.GA" callerrev="5.0.1.Final"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="jar" ext="jar" status="no" details="" size="60796" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.jboss.logging\jboss-logging\3.1.1.GA\jars\jboss-logging.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.jboss.logging\jboss-logging\3.1.1.GA\jars\jboss-logging.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.1.0.Final" status="release" pubdate="20140721101858" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3059" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.validation\validation-api\ivy-1.1.0.Final.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\javax.validation\validation-api\1.1.0.Final\ivys\ivy.xml"/>
+				<caller organisation="org.hibernate" name="hibernate-validator" conf="default, compile, runtime, master" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="5.0.1.Final"/>
+				<artifacts>
+					<artifact name="validation-api" type="jar" ext="jar" status="no" details="" size="63777" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.12" status="release" pubdate="20140721101857" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="46">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3399" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.yaml\snakeyaml\ivy-1.12.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.yaml\snakeyaml\1.12\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="270779" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.yaml\snakeyaml\1.12\bundles\snakeyaml.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.yaml\snakeyaml\1.12\bundles\snakeyaml.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<metadata-artifact status="no" details="" size="2411" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-jdbc_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-jdbc_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-jdbc_2.10" type="jar" ext="jar" status="no" details="" size="202728" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-jdbc_2.10\2.2.4\jars\play-jdbc_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-jdbc_2.10\2.2.4\jars\play-jdbc_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="tyrex" name="tyrex">
+			<revision name="1.0.1" status="release" pubdate="20051109092044" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="44">
+				<metadata-artifact status="no" details="" size="2167" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\tyrex\tyrex\ivy-1.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\tyrex\tyrex\1.0.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="tyrex" type="jar" ext="jar" status="no" details="" size="201315" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\tyrex\tyrex\1.0.1\jars\tyrex.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\tyrex\tyrex\1.0.1\jars\tyrex.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.172" status="release" pubdate="20140721022739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="43">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2328" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.h2database\h2\ivy-1.3.172.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.h2database\h2\1.3.172\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="1.3.172" rev-constraint-default="1.3.172" rev-constraint-dynamic="1.3.172" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1549098" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.h2database\h2\1.3.172\jars\h2.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.h2database\h2\1.3.172\jars\h2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20140720155142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="42">
+				<metadata-artifact status="no" details="" size="3643" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.google.guava\guava\ivy-14.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.guava\guava\14.0.1\ivys\ivy.xml"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="11.0.2" rev-constraint-default="11.0.2" rev-constraint-dynamic="11.0.2" callerrev="2.2.0"/>
+				<caller organisation="org.cloudera.htrace" name="htrace-core" conf="compile, runtime" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="2.04"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.4"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2189117" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.guava\guava\14.0.1\bundles\guava.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.google.guava\guava\14.0.1\bundles\guava.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="11.0.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="14.0.1"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="11.0.2" rev-constraint-default="11.0.2" rev-constraint-dynamic="11.0.2" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="12.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile), default" position="-1">
+				<evicted-by rev="14.0.1"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.cloudera.htrace" name="htrace-core" conf="compile, runtime" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="2.04"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.4"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="12.0.1" rev-constraint-default="12.0.1" rev-constraint-dynamic="12.0.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jolbox" name="bonecp">
+			<revision name="0.8.0.RELEASE" status="release" pubdate="20140721002609" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
+				<metadata-artifact status="no" details="" size="9250" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.jolbox\bonecp\ivy-0.8.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.jolbox\bonecp\0.8.0.RELEASE\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="0.8.0.RELEASE" rev-constraint-default="0.8.0.RELEASE" rev-constraint-dynamic="0.8.0.RELEASE" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="bonecp" type="bundle" ext="jar" status="no" details="" size="110600" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<metadata-artifact status="no" details="" size="5570" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.0"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play_2.10" type="jar" ext="jar" status="no" details="" size="3802512" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play_2.10\2.2.4\jars\play_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play_2.10\2.2.4\jars\play_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.11.0" status="release" pubdate="20130221072006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4251" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\xerces\xercesImpl\ivy-2.11.0.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\xerces\xercesImpl\2.11.0\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1367760" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\xerces\xercesImpl\2.11.0\jars\xercesImpl.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\xerces\xercesImpl\2.11.0\jars\xercesImpl.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20110820101111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3121" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\xml-apis\xml-apis\ivy-1.4.01.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\xml-apis\xml-apis\1.4.01\ivys\ivy.xml"/>
+				<caller organisation="xerces" name="xercesImpl" conf="default, compile, runtime, master" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="2.11.0"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="220536" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\xml-apis\xml-apis\1.4.01\jars\xml-apis.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\xml-apis\xml-apis\1.4.01\jars\xml-apis.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oauth.signpost" name="signpost-commonshttp4">
+			<revision name="1.2.1.2" status="release" pubdate="20120226191621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
+				<metadata-artifact status="no" details="" size="3705" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="signpost-commonshttp4" type="jar" ext="jar" status="no" details="" size="6512" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\jars\signpost-commonshttp4.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\jars\signpost-commonshttp4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.0.1" status="release" pubdate="20130506214653" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<license name="Apache License" url="../LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4939" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.httpcomponents\httpclient\ivy-4.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpclient\4.0.1\ivys\ivy.xml"/>
+				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="default, compile, runtime, master" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.2.1.2"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="291037" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.0.1" status="release" pubdate="20130506214650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4239" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.httpcomponents\httpcore\ivy-4.0.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpcore\4.0.1\ivys\ivy.xml"/>
+				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="default, compile, runtime, master" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.2.1.2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="172888" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oauth.signpost" name="signpost-core">
+			<revision name="1.2.1.2" status="release" pubdate="20120226191606" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="33">
+				<metadata-artifact status="no" details="" size="3131" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\oauth.signpost\signpost-core\ivy-1.2.1.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-core\1.2.1.2\ivys\ivy.xml"/>
+				<caller organisation="oauth.signpost" name="signpost-commonshttp4" conf="default, compile, runtime, master" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.2.1.2"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="signpost-core" type="jar" ext="jar" status="no" details="" size="45277" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-core\1.2.1.2\jars\signpost-core.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\oauth.signpost\signpost-core\1.2.1.2\jars\signpost-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.7.18" status="release" pubdate="20140720170650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6713" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.ning\async-http-client\ivy-1.7.18.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.ning\async-http-client\1.7.18\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.7.18" rev-constraint-default="1.7.18" rev-constraint-dynamic="1.7.18" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="500511" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.ning\async-http-client\1.7.18\jars\async-http-client.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.ning\async-http-client\1.7.18\jars\async-http-client.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20140425113753" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="81">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3188" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-httpclient\commons-httpclient\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="2.2.0"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-httpclient\commons-httpclient\jars\commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.1" status="release" pubdate="20111115182705" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<metadata-artifact status="no" details="" size="7766" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.apache.commons\commons-lang3\ivy-3.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-lang3\3.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="315805" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-lang3\3.1\jars\commons-lang3.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.apache.commons\commons-lang3\3.1\jars\commons-lang3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
+			<revision name="2.2.0" status="release" pubdate="20140720170646" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3020" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.akka\akka-slf4j_2.10\ivy-2.2.0.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-slf4j_2.10\2.2.0\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="no" details="" size="14477" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-slf4j_2.10\2.2.0\bundles\akka-slf4j_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-slf4j_2.10\2.2.0\bundles\akka-slf4j_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.2.0" status="release" pubdate="20140720170642" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2629" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.2.0.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-actor_2.10\2.2.0\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2643414" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-actor_2.10\2.2.0\jars\akka-actor_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.akka\akka-actor_2.10\2.2.0\jars\akka-actor_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.13" status="release" pubdate="20140720165537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10249" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\ch.qos.logback\logback-classic\ivy-1.0.13.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-classic\1.0.13\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.0.13" rev-constraint-default="1.0.13" rev-constraint-dynamic="1.0.13" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="264600" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-classic\1.0.13\jars\logback-classic.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-classic\1.0.13\jars\logback-classic.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.13" status="release" pubdate="20140720165542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="27">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9513" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\ch.qos.logback\logback-core\ivy-1.0.13.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-core\1.0.13\ivys\ivy.xml"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.13" rev-constraint-default="1.0.13" rev-constraint-dynamic="1.0.13" callerrev="1.0.13"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.0.13" rev-constraint-default="1.0.13" rev-constraint-dynamic="1.0.13" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="418870" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-core\1.0.13\jars\logback-core.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\ch.qos.logback\logback-core\1.0.13\jars\logback-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.5" status="release" pubdate="20140720170626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+				<metadata-artifact status="no" details="" size="4625" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jcl-over-slf4j\1.7.5\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16517" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jcl-over-slf4j\1.7.5\jars\jcl-over-slf4j.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jcl-over-slf4j\1.7.5\jars\jcl-over-slf4j.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.5" status="release" pubdate="20140720170623" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<metadata-artifact status="no" details="" size="4664" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\jul-to-slf4j\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jul-to-slf4j\1.7.5\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4960" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jul-to-slf4j\1.7.5\jars\jul-to-slf4j.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\jul-to-slf4j\1.7.5\jars\jul-to-slf4j.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20140625102035" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="65">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3551" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="1.6.1"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-protocol" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="3.4.6"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\log4j\log4j\bundles\log4j-1.2.17.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.16" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.2.17"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="1.6.1"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="3.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20140720163202" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="24">
+				<metadata-artifact status="no" details="" size="4461" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.slf4j\slf4j-api\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\slf4j-api\1.7.5\ivys\ivy.xml"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.6.1"/>
+				<caller organisation="org.slf4j" name="jcl-over-slf4j" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-auth" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.0"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.7.4"/>
+				<caller organisation="com.jolbox" name="bonecp" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.8.0.RELEASE"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0.13"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.0"/>
+				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.4.6"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.2.4"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\slf4j-api\1.7.5\jars\slf4j-api.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.slf4j\slf4j-api\1.7.5\jars\slf4j-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7.5"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.7.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.6.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7.5"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.6.1"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7.5"/>
+				<caller organisation="com.jolbox" name="bonecp" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.8.0.RELEASE"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.netty" name="netty-http-pipelining">
+			<revision name="1.1.2" status="release" pubdate="20140720152326" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/netty-http-pipelining" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2724" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.netty\netty-http-pipelining\ivy-1.1.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.netty\netty-http-pipelining\1.1.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="netty-http-pipelining" type="jar" ext="jar" status="no" details="" size="7012" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.netty\netty-http-pipelining\1.1.2\jars\netty-http-pipelining.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.netty\netty-http-pipelining\1.1.2\jars\netty-http-pipelining.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.11" status="release" pubdate="20140720170305" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="66">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2756" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\junit\junit\ivy-4.11.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\junit\junit\4.11\ivys\ivy.xml"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-protocol" conf="compile, runtime" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="245039" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\junit\junit\4.11\jars\junit.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\junit\junit\4.11\jars\junit.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20140720170247" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="67">
+				<metadata-artifact status="no" details="" size="2389" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.hamcrest\hamcrest-core\ivy-1.3.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.hamcrest\hamcrest-core\1.3\ivys\ivy.xml"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.11"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hamcrest\hamcrest-core\1.3\jars\hamcrest-core.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.hamcrest\hamcrest-core\1.3\jars\hamcrest-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.7.1.Final" status="release" pubdate="20140721033947" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6416" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\io.netty\netty\ivy-3.7.1.Final.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\io.netty\netty\3.7.1.Final\ivys\ivy.xml"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="3.6.6.Final" rev-constraint-default="3.6.6.Final" rev-constraint-dynamic="3.6.6.Final" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="3.4.6"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="3.7.1.Final" rev-constraint-default="3.7.1.Final" rev-constraint-dynamic="3.7.1.Final" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.netty" name="netty-http-pipelining" conf="default, compile, runtime, master" rev="3.6.3.Final" rev-constraint-default="3.6.3.Final" rev-constraint-dynamic="3.6.3.Final" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1209704" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\io.netty\netty\3.7.1.Final\bundles\netty.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\io.netty\netty\3.7.1.Final\bundles\netty.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.7.0.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*)" position="-1">
+				<evicted-by rev="3.7.1.Final"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="3.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="3.6.6.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="3.7.1.Final"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="3.6.6.Final" rev-constraint-default="3.6.6.Final" rev-constraint-dynamic="3.6.6.Final" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="3.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="3.6.3.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile), default" position="-1">
+				<evicted-by rev="3.7.1.Final"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="3.7.1.Final" rev-constraint-default="3.7.1.Final" rev-constraint-dynamic="3.7.1.Final" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.netty" name="netty-http-pipelining" conf="default, compile, runtime, master" rev="3.6.3.Final" rev-constraint-default="3.6.3.Final" rev-constraint-dynamic="3.6.3.Final" callerrev="1.1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20130506213635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<metadata-artifact status="no" details="" size="3933" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\commons-logging\commons-logging\1.1.1\ivys\ivy.xml"/>
+				<caller organisation="commons-el" name="commons-el" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils-core" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.6"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.2.0"/>
+				<caller organisation="org.cloudera.htrace" name="htrace-core" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.04"/>
+				<caller organisation="net.java.dev.jets3t" name="jets3t" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.6.1"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.8"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-logging\commons-logging\1.1.1\jars\commons-logging.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\commons-logging\commons-logging\1.1.1\jars\commons-logging.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-el" name="commons-el" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20140425113940" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="83">
+				<metadata-artifact status="no" details="" size="2220" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.servlet\servlet-api\ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="tomcat" name="jasper-runtime" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="5.5.23"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="105112" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.servlet\servlet-api\jars\servlet-api-2.5.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.5"/>
+				<caller organisation="tomcat" name="jasper-runtime" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="5.5.23"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20140701142416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="63">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3030" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.google.protobuf\protobuf-java\ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/Administrator/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="org.apache.hbase" name="hbase-client" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.2.0"/>
+				<caller organisation="org.apache.hbase" name="hbase-protocol" conf="compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.98.3-hadoop2"/>
+				<caller organisation="org.apache.hbase" name="hbase-common" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.98.3-hadoop2"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="file:/C:/Users/Administrator/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="14">
+				<metadata-artifact status="no" details="" size="2798" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-json_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-json_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-json_2.10" type="jar" ext="jar" status="no" details="" size="623498" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-json_2.10\2.2.4\jars\play-json_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-json_2.10\2.2.4\jars\play-json_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.3" status="release" pubdate="20130927194529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2638" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.scala-lang\scala-reflect\ivy-2.10.3.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-reflect\2.10.3\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206936" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-reflect\2.10.3\jars\scala-reflect.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-reflect\2.10.3\jars\scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.2.2" status="release" pubdate="20140720155225" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="6910" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.2.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-databind\2.2.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="866104" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-databind\2.2.2\jars\jackson-databind.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-databind\2.2.2\jars\jackson-databind.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.2.2" status="release" pubdate="20140720155229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="19">
+				<metadata-artifact status="no" details="" size="5219" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.2.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-core\2.2.2\ivys\ivy.xml"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="default, compile, runtime, master" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="191738" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-core\2.2.2\jars\jackson-core.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-core\2.2.2\jars\jackson-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.2.2" status="release" pubdate="20140720155228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="18">
+				<metadata-artifact status="no" details="" size="4631" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.2.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-annotations\2.2.2\ivys\ivy.xml"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="default, compile, runtime, master" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="33491" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-annotations\2.2.2\jars\jackson-annotations.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.fasterxml.jackson.core\jackson-annotations\2.2.2\jars\jackson-annotations.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.3.1" status="release" pubdate="20140720170536" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3204" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.joda\joda-convert\ivy-1.3.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.joda\joda-convert\1.3.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="40544" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.joda\joda-convert\1.3.1\jars\joda-convert.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.joda\joda-convert\1.3.1\jars\joda-convert.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="16">
+				<metadata-artifact status="no" details="" size="1866" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-datacommons_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-datacommons_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.10" type="jar" ext="jar" status="no" details="" size="5198" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-datacommons_2.10\2.2.4\jars\play-datacommons_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-datacommons_2.10\2.2.4\jars\play-datacommons_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="15">
+				<metadata-artifact status="no" details="" size="1860" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-functional_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-functional_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-functional_2.10" type="jar" ext="jar" status="no" details="" size="366840" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-functional_2.10\2.2.4\jars\play-functional_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-functional_2.10\2.2.4\jars\play-functional_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="11">
+				<metadata-artifact status="no" details="" size="2039" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-iteratees_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-iteratees_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="no" details="" size="716673" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-iteratees_2.10\2.2.4\jars\play-iteratees_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-iteratees_2.10\2.2.4\jars\play-iteratees_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.2" status="release" pubdate="20140720155201" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2714" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe\config\ivy-1.0.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe\config\1.0.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.0"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="187497" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe\config\1.0.2\bundles\config.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe\config\1.0.2\bundles\config.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20140720170519" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2522" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.scala-stm\scala-stm_2.10\ivy-0.7.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-stm\scala-stm_2.10\0.7\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-iteratees_2.10" conf="compile" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="no" details="" size="650514" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-stm\scala-stm_2.10\0.7\jars\scala-stm_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-stm\scala-stm_2.10\0.7\jars\scala-stm_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="templates_2.10">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="7">
+				<metadata-artifact status="no" details="" size="1937" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\templates_2.10\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\templates_2.10\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="templates_2.10" type="jar" ext="jar" status="no" details="" size="39142" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\templates_2.10\2.2.4\jars\templates_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\templates_2.10\2.2.4\jars\templates_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scala-incubator.io" name="scala-io-file_2.10">
+			<revision name="0.4.2" status="release" pubdate="20130123182132" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jesseeichar.github.com/scala-io-doc/index.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Scala License" url="http://www.scala-lang.org/node/146"/>
+				<metadata-artifact status="no" details="" size="2944" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.github.scala-incubator.io\scala-io-file_2.10\ivy-0.4.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-file_2.10\0.4.2\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="templates_2.10" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="scala-io-file_2.10" type="jar" ext="jar" status="no" details="" size="437576" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-file_2.10\0.4.2\jars\scala-io-file_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-file_2.10\0.4.2\jars\scala-io-file_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scala-incubator.io" name="scala-io-core_2.10">
+			<revision name="0.4.2" status="release" pubdate="20130123182148" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jesseeichar.github.com/scala-io-doc/index.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Scala License" url="http://www.scala-lang.org/node/146"/>
+				<metadata-artifact status="no" details="" size="2921" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.github.scala-incubator.io\scala-io-core_2.10\ivy-0.4.2.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-core_2.10\0.4.2\ivys\ivy.xml"/>
+				<caller organisation="com.github.scala-incubator.io" name="scala-io-file_2.10" conf="default, compile, runtime, master" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="scala-io-core_2.10" type="jar" ext="jar" status="no" details="" size="1295513" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-core_2.10\0.4.2\jars\scala-io-core_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.github.scala-incubator.io\scala-io-core_2.10\0.4.2\jars\scala-io-core_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jsuereth" name="scala-arm_2.10">
+			<revision name="1.3" status="release" pubdate="20130122040254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsuereth.com/scala-arm" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2972" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.jsuereth\scala-arm_2.10\ivy-1.3.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.jsuereth\scala-arm_2.10\1.3\ivys\ivy.xml"/>
+				<caller organisation="com.github.scala-incubator.io" name="scala-io-core_2.10" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="scala-arm_2.10" type="jar" ext="jar" status="no" details="" size="75459" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.jsuereth\scala-arm_2.10\1.3\jars\scala-arm_2.10.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.jsuereth\scala-arm_2.10\1.3\jars\scala-arm_2.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.transaction" name="jta">
+			<revision name="1.1" status="release" pubdate="20081028122721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="40">
+				<metadata-artifact status="no" details="" size="2345" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\javax.transaction\jta\1.1\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="15071" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.transaction\jta\1.1\jars\jta.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\javax.transaction\jta\1.1\jars\jta.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-exceptions">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="6">
+				<metadata-artifact status="no" details="" size="1312" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\play-exceptions\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-exceptions\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="play-exceptions" type="jar" ext="jar" status="no" details="" size="4571" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-exceptions\2.2.4\jars\play-exceptions.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\play-exceptions\2.2.4\jars\play-exceptions.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="sbt-link">
+			<revision name="2.2.4" status="release" pubdate="20140721141048" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
+				<metadata-artifact status="no" details="" size="1791" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\com.typesafe.play\sbt-link\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\sbt-link\2.2.4\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="sbt-link" type="jar" ext="jar" status="no" details="" size="8774" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\sbt-link\2.2.4\jars\sbt-link.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\com.typesafe.play\sbt-link\2.2.4\jars\sbt-link.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.18.0-GA" status="release" pubdate="20140720165451" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3056" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.javassist\javassist\ivy-3.18.0-GA.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.javassist\javassist\3.18.0-GA\ivys\ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="sbt-link" conf="compile" rev="3.18.0-GA" rev-constraint-default="3.18.0-GA" rev-constraint-dynamic="3.18.0-GA" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="3.18.0-GA" rev-constraint-default="3.18.0-GA" rev-constraint-dynamic="3.18.0-GA" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="javassist" type="bundle" ext="jar" status="no" details="" size="713930" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.javassist\javassist\3.18.0-GA\bundles\javassist.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.javassist\javassist\3.18.0-GA\bundles\javassist.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927194454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2478" time="0" location="D:\wolf\wolf\play-2.2.4\framework\..\repository\cache\org.scala-lang\scala-library\ivy-2.10.3.xml" searched="false" origin-is-local="true" origin-location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-library\2.10.3\ivys\ivy.xml"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.10.3"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.0" callerrev="0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="default" name="computer-database_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.0"/>
+				<caller organisation="com.jsuereth" name="scala-arm_2.10" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.0" callerrev="1.3"/>
+				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.2.4"/>
+				<caller organisation="com.typesafe.play" name="play-functional_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.2.4"/>
+				<caller organisation="com.github.scala-incubator.io" name="scala-io-core_2.10" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.0" callerrev="0.4.2"/>
+				<caller organisation="com.github.scala-incubator.io" name="scala-io-file_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.0" callerrev="0.4.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.2" callerrev="2.2.0"/>
+				<caller organisation="com.typesafe.play" name="play-datacommons_2.10" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.2.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-library\2.10.3\jars\scala-library.jar">
+						<origin-location is-local="true" location="D:\wolf\wolf\play-2.2.4\repository\local\org.scala-lang\scala-library\2.10.3\jars\scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

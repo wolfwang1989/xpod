@@ -1,0 +1,60 @@
+module
+type
+origin
+	 optvalue` string,
+	 optvalue2` string,
+	 optmessage` string,
+	 optmessage2` string,
+	 value` int,
+	 uid` string,
+	 uuid` string,
+	 idfa` string,
+	 splus` string,
+	 mid` string,
+	 f` string,
+	 v` string,
+	 s` string,
+	 ip` string,
+	 hid` string,
+	 openudid` string,
+	 tid` string,
+	 active` string,
+	 net` string,
+	 imsi` string,
+	 start_time` double,
+	 user_time` double,
+	 key` int,
+	 double_result_add` int,
+	 enum_result_unique` int,
+	 enum_result_default` int,
+	 long_result_default` int,
+	 str_result_default` string,
+	 control_code` int,
+	 song_id` double,
+	 song_time` double,
+	 file_size` double,
+	 play_time` double,
+	 play_control` int,
+	 is_buffer` int,
+	 response_time` double,
+	 loading_time` double,
+	 buffer_time
+	 buffer_size
+	 buffer_count
+	 url
+	 dnsdone_time
+	 connerdone_time
+	 httpheader_received_time
+	 dnsdone_time2
+	 connerdone_time2
+	 httpheader_received_time2
+	 downstatus
+	 fileid
+	 filename
+	 filesize
+	 down_file_size
+	 download_time
+	 cutoff_count
+	 quality
+	 position
+	PARTITIONED:time

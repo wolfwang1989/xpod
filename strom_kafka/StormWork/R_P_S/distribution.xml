@@ -1,0 +1,30 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+    <!-- TODO: a jarjar format would be better -->
+    <id>jar-with-dependencies</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>true</useProjectArtifact>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <excludes>
+                <exclude>org.slf4j:slf4j-log4j12</exclude>
+                <exclude>log4j:log4j</exclude>
+                <exclude>org.apache.zookeeper:zookeeper</exclude>
+                <exclude>org.apache.storm:storm-core</exclude>
+                <exclude>org.apache.kafka:kafka_2.10</exclude>
+                <exclude>com.fasterxml.jackson.core:jackson-annotations</exclude>
+                <exclude>com.fasterxml.jackson.core:jackson-databind</exclude>
+                <exclude>com.fasterxml.jackson.core:jackson-core</exclude>
+                <exclude>joda-time:joda-time</exclude>
+                <exclude>org.scala-lang:scala-library</exclude>
+                <exclude>dom4j:dom4j</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+</assembly>

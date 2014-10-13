@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="data_format">
+    <output-path>$PROJECT_DIR$/out/artifacts/data_format</output-path>
+    <root id="archive" name="data_format.jar" />
+  </artifact>
+</component>

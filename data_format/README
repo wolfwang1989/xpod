@@ -1,0 +1,47 @@
+使用文档后续更新ing(若有错误请及时联系我更改)
+
+1.实现功能：根据配置文件解析日志，可以解析成TextFile或者RCFile，解析的日志直接写入hive库，压缩格式为Snappy。
+
+2.代码结构如下：
+.
+├── ./com
+│   └── ./com/ttpod
+│       ├── ./com/ttpod/data
+│       │   ├── ./com/ttpod/data/logFormat
+│       │   │   ├── ./com/ttpod/data/logFormat/bean
+│       │   │   │   ├── ./com/ttpod/data/logFormat/bean/jsonLog.java
+│       │   │   │   └── ./com/ttpod/data/logFormat/bean/webLog.java
+│       │   │   └── ./com/ttpod/data/logFormat/logFormat.java
+│       │   └── ./com/ttpod/data/tools
+│       │       └── ./com/ttpod/data/tools/readConf.java
+│       └── ./com/ttpod/stat
+│           ├── ./com/ttpod/stat/data
+│           │   └── ./com/ttpod/stat/data/jsonparase
+│           │       ├── ./com/ttpod/stat/data/jsonparase/LogJsonParasetoRCFile.java
+│           │       └── ./com/ttpod/stat/data/jsonparase/LogJsonParasetoTextFile.java
+│           ├── ./com/ttpod/stat/fileformat
+│           │   ├── ./com/ttpod/stat/fileformat/RCFileInputFormat.java
+│           │   ├── ./com/ttpod/stat/fileformat/RCFileOutputFormat.java
+│           │   └── ./com/ttpod/stat/fileformat/RCFileRecordReader.java
+
+备注：
+/com/ttpod/stat/data/jsonparase/LogJsonParasetoRCFile.java    解析原始日志文件成RCFile文件；
+/com/ttpod/stat/data/jsonparase/LogJsonParasetoTextFile.java  解析原始日志文件成TextFile文件；
+/com/ttpod/stat/fileformat                                    此目录下的代码为RCFile文件的读取和写入的格式转换。
+
+3.使用方法：hadoop jar jar包名 函数名 输入目录 输出目录 -cachfile路径 -colsum解析的列数 -configpath配置文件名
+备注：
+后面cachfile路径、colsum解析的列数和configpath配置文件名形式如：-cachfile=/configuration-params.xml -colsum=60 -configpath=configuration-params.xml，并且cachfile路径为hdfs路径。
+
+4.关于日志解析完成之后生成hive表的方法：
+1).hive建表
+2).建分区
+3).使用jar转换日志到hive表的相应的分区目录下。
+备注：增加app rom解析；
+openudid openid是同一个；tuid tid是同一个
+4).内网已建表测试过，若对字段有疑问可以上去核对，表为rc_log_test。
+
+
+<--!根据config配置，解析日志
+    config只有hive日志表信息
+解析日志直接写入hive库-->

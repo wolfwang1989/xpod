@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.kafka:kafka_2.10:0.8.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.10/0.8.1/kafka_2.10-0.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.10/0.8.1/kafka_2.10-0.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.10/0.8.1/kafka_2.10-0.8.1-sources.jar!/" />
+      <root url="file://D:/学习资料/storm/kafka-0.8.1.1-src/core/src/main/scala" />
+    </SOURCES>
+  </library>
+</component>

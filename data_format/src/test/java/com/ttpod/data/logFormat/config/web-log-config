@@ -1,0 +1,14 @@
+"$remote_addr`
+$server_addr`
+$server_protocol`
+$request_method`
+$server_port`
+-`
+$uri`
+?$query_string`
+$status`
+$request_time`
+[$time_local]`
+$http_referer`
+$http_user_agent`
+$request_body"
