@@ -1,0 +1,17 @@
+
+一、目录介绍
+   src/main/java      java源码
+   src/main/scala     scala源码
+   src/main/test      测试daima
+   pom.xml            maven工程文件
+   distribution.xml   maven assembly依赖文件，通过该文件配置不需要打包的jar包
+   dbusSpout.xml      配置文件
+二、编译、打包
+   1、maven  assembly
+   2、在target下生成jar包R_P_S-1.0-SNAPSHOT-jar-with-dependencies.jar
+   3、将jar包、dbusSpout.xml打包
+   
+三、提交storm任务
+  1、解压安装包
+  2、修改配置文件dbusSpout.xml相关参数
+  3、执行 storm jar  R_P_S-1.0-SNAPSHOT-jar-with-dependencies.jar  com.ttpod.storm.work.WorkBuiler  任务名字
